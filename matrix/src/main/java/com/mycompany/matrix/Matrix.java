@@ -15,7 +15,7 @@ public class Matrix {
     public static void main(String[] args) {
         int matriz [][] = new int [3][3];
         
-0        Scanner teclado = new Scanner (System.in);
+        Scanner teclado = new Scanner (System.in);
         for (int f=0; f<3; f++) {
             for (int c=0; c<3; c++) {
                 System.out.println("Ingrese el valor de la posición f: " + f + " c: " + c);
