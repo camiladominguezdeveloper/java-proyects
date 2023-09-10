@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Logica;
+package Encapsulamiento;
 
 /**
  *
@@ -10,13 +10,9 @@ package Logica;
  */
 public class Alumno {
     
-    int id;
-    String nombre;
-    String apellido;
-    
-    public void mostrarNombre() {
-        System.out.println("Hola, soy un alumno y se decir mi nombre");
-    }
+    private int id;
+    private String nombre;
+    private String apellido;
 
     public Alumno() {
     }
@@ -52,13 +48,5 @@ public class Alumno {
     }
     
     
-    
-    public void saberAprobado(double calificacion) {
-    if(calificacion >= 6) {
-        System.out.println("Aprobé la materia");
-    } else {
-        System.out.println("Uyy, no aprobé");
-    }
-    }
     
 }
